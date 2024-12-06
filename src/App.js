@@ -127,7 +127,7 @@ export default function App() {
       <StatusBar backgroundColor="#fff" barStyle="dark-content" />
 
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="PageLoginTwo" screenOptions={{ headerShown: false }}>
+        <Stack.Navigator initialRouteName="PageOnboardingOne" screenOptions={{ headerShown: false }}>
           <Stack.Screen name="PageOnboardingOne" component={PageOnboardingOne} />
           <Stack.Screen name="PageOnboardingTwo" component={PageOnboardingTwo} />
           <Stack.Screen name="PageOnboardingThree" component={PageOnboardingThree} />
